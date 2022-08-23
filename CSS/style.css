@@ -1,9 +1,17 @@
 *{margin:auto; padding:0;} 
-body{background-color: #ffdddd; text-align: center;}
-nav{background-color:#c5d7e7;}
-a{color: black; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size: 22px;text-decoration: none;padding-top: 10px;}
-table{background-color:#11ff99;}
-nav a:link, a:visited{color: blueviolet;}
+body{background-color: #edbcf5; }
+nav{background-color:#e3e08f;}
+a{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size: 22px;text-decoration: none;padding-top: 10px;}
+nav a:link, a:visited{color: black;}
 nav a:hover, a:active{color:darkred;}
 footer{color: black; background-color:wheat; clear:both;}
-header{position: fixed; width: 100%;}
+header{position: fixed; width: 100%; justify-content: space-between;}
+footer{color: black; background-color:wheat; clear:both;}
+
+.spaceu {
+    display:flex;
+    align-content: space-evenly;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    padding: 5px;
+  }
