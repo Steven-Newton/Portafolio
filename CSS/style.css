@@ -1,13 +1,20 @@
 *{margin:auto; padding:0;} 
-body{background-color: #edbcf5; }
-nav{background-color:#e3e08f;}
+
+/*body{background-color: #edbcf5;
+background-image:url(../src/Space.png); 
+}*/
+body {
+  background-image: url('https://media.wired.co.uk/photos/606da2ab938ecee6e930e8cb/16:9/w_2688,h_1512,c_limit/black-hole.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+}
+nav{background-color:#7787d7;}
 a{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; font-size: 22px;text-decoration: none;padding-top: 10px;}
 nav a:link, a:visited{color: black;}
 nav a:hover, a:active{color:darkred;}
-footer{color: black; background-color:wheat; clear:both;}
 header{position: fixed; width: 100%; justify-content: space-between;}
-footer{color: black; background-color:wheat; clear:both;}
-
 .spaceu {
     display:flex;
     align-content: space-evenly;
@@ -15,3 +22,26 @@ footer{color: black; background-color:wheat; clear:both;}
     gap: 5px;
     padding: 5px;
   }
+  .divimg{
+  margin: 50px;
+  margin-right: -10px;
+  border: black;
+  }
+  marquee{
+    background-color: #600e6c;
+  }
+  .divtexto{
+  color: white;
+  background-color: rgba(120, 120, 120, .8);
+  margin: 50px;
+  margin-bottom: -20px;
+  font-size: 30px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  border-radius: 25px;
+  padding: 10px;
+  }
+  .container{
+    display: flex;
+  }
+ 
