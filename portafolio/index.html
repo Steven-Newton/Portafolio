@@ -8,25 +8,26 @@
         <title>portafolio</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     </head>
-    <body style="background-color:#4a0023;">
-        
 
-        <div class="splash fadeout" >
+
+    <body style="background-color:#4a0023;">
+<!--         splash screen
+ -->       
+       <div class="splash fadeout" >
             <br><br><br>
             <h1>Steven Newton Portafolio 2022</h1>
         </div>  
 
         <header class="fadein">
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light spaceu fade2">
-                <a class="navbar-brand" href="index.html"><img width="25px" height="25px" src="../src/home.png" alt=""></a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand float-left" href="index.html"><img width="25px" height="25px" src="../src/home.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item ">
-                      <a class="nav-link" href="#">Placeholder</a>
+                      <a class="nav-link" href="#carouselExampleControls">Placeholder</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Placeholder</a>
@@ -35,17 +36,17 @@
                       <a class="nav-link" href="#">Placeholder</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Placeholder</a>
+                      <a class="nav-link" href="#">Placeholder</a>
                       </li>
                   </ul>
                 </div>
               </nav>
         </header>
-        <section class="fadein" style="width:100%;">
 
-        <br><br><br>
-            <marquee behavior="" direction=""><h1 style="color:white;">Version 0.3  <small style="color:red;">Beta</small></h1></marquee>
-        <div class="container " >
+        <br><br>
+            <marquee behavior="" direction="" style="background-color: white;"><h1 style="color:Black;">Version 0.3.5  <small style="color:red;">Beta</small></h1></marquee>
+        <br><br>
+        <main class="container-fluid fadein"> 
             <div class="row">
                 <div class="col-md-2 "  >
                     <img style=" border-radius:50%;" width=".9em" height=".9em" src="../src/FotoMia.png" alt="">
@@ -58,7 +59,7 @@
             </div>
 <!--             aqui van mis habilidades blandas y duras
  -->            <div class="row justify-content-center ">
-                <div class="col-md-5 divtexto m-4 m-l-3 al" >
+                <div class="col-lg-5 divtexto m-4 " >
                     <ul style="margin-left: 1.9em;">
                         <li>Lorem, ipsum.</li>
                         <li>Lorem, ipsum dolor.</li>
@@ -67,7 +68,7 @@
                         <li>Lorem, ipsum dolor.</li>
                     </ul>
                 </div>
-                <div class="col-md-5 divtexto m-4 m-l-3 al" >
+                <div class="col-lg-5 divtexto m-4" >
                     <ul style="margin-left: 1.9em;">
                         <li>Lorem, ipsum.</li>
                         <li>Lorem, ipsum dolor.</li>
@@ -78,16 +79,16 @@
                 </div>
         </div>
 
-        </section>
 
 <!--         aqui van proyectos que hagamos para el portafolio, las imagenes son temporales 
- --><div id="carouselExampleControls" class="carousel slide fadein col-md-12" data-ride="carousel">
+ -->
+ <div id="carouselExampleControls" class="carousel slide fadein col-md-12" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="d-block " width="90%" height="40%" src="../src/test1.png" alt="First slide">
+      <img class="d-block " src="../src/test1.png" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block " width="90%" height="40%" src="../src/test2.png" alt="Second slide">
+      <img class="d-block "  src="../src/test2.png" alt="Second slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -98,19 +99,22 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-<br>
-<br>
-<br>
-<!--   el footer aun no se como lo quiero
- -->    <footer style="background-color:white;   ">
+      <br>
+      <br>
+      <br>
 
-            <a  href="https://github.com/Steven-Newton"><img width="25px" height="25px" src="../src/github.png" alt=""></a>
+      </main>
 
-            <a  href="https://www.linkedin.com/in/steven-newton-442242249/"><img width="25px" height="25px" src="../src/linkedin.png" alt=""></a>
-        derechos reservados 
-
-    </footer>
-
+      <footer class="w-100" style="background-color:white;">
+            <div class=" text-center ">
+              <ul class="list-inline">
+                      <li class="list-inline-item"> <a  href="https://github.com/Steven-Newton"><img width="25px" height="25px" src="../src/github.png" alt=""></a></li>
+                      <li class="list-inline-item"> <a  href="https://www.linkedin.com/in/steven-newton-442242249/"><img width="25px" height="25px" src="../src/linkedin.png" alt=""></a></li>
+                  </ul>
+                  <small>Copyright &copy; Steven Newton</small>
+              </div> 
+        </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     </body>
