@@ -4,118 +4,221 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../CSS/style.css">
         <title>portafolio</title>
+      <!-- externa -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    </head>
+        <link rel="stylesheet" href="../css/style.css">
+      <!-- interna -->
+      <style>       
+      body{
+      color: white;
+      background-color: rgb(116, 199, 206);
+      }
+
+      header{ width: 100%; justify-content: space-between;
+        position: sticky;
+        top: 0;
+        z-index: 999;
+        background-color: white;
+      }
+        .divtexto{
+        color: white;
+        background-color: rgba(10, 142, 160, 0.4);
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: 400;
+        border-radius: 25px;
+        padding: 10px;
+        }
+      </style>
+      </head>
 
 
-    <body style="background-color:#4a0023;">
-<!--         splash screen
- -->       
-       <div class="splash fadeout" >
+    <body >
+    <!--     splash screen -->
+      
+      <div class="splash fadeout" >
             <br><br><br>
             <h1>Steven Newton Portafolio 2022</h1>
-        </div>  
+        </div>   
 
-        <header class="fadein">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <header class="fadein ">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                 <a class="navbar-brand float-left" href="index.html"><img width="25px" height="25px" src="../src/home.png" alt=""></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
-                    <li class="nav-item ">
-                      <a class="nav-link" href="#carouselExampleControls">Placeholder</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#skills">Skills </a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Placeholder</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Placeholder</a>
+                      <a class="nav-link" href="#quote">Quote</a>
                     </li>
                     <li class="nav-item ">
-                      <a class="nav-link" href="#">Placeholder</a>
-                      </li>
+                      <a class="nav-link" href="#carousel">Carousel</a>
+                    </li>
                   </ul>
                 </div>
               </nav>
         </header>
-
         <br><br>
-            <marquee behavior="" direction="" style="background-color: white;"><h1 style="color:Black;">Version 0.3.5  <small style="color:red;">Beta</small></h1></marquee>
-        <br><br>
-        <main class="container-fluid fadein"> 
-            <div class="row">
-                <div class="col-md-2 "  >
+        <main class="container-fluid fadein d-print-none"  id="skills"> 
+            <div class="row ">
                     <img style=" border-radius:50%;" width=".9em" height=".9em" src="../src/FotoMia.png" alt="">
-                </div>
+ 
             </div>
             <div class="row">
-                <div class=" col-md-11 divtexto ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ipsa a sequi, labore at possimus! Voluptatem, suscipit! Ex accusantium sint est id nemo cupiditate. Aperiam et beatae ducimus officiis corrupti sequi laborum, aliquam dolorum corporis praesentium? Officia cupiditate sit vel. Iure quasi esse itaque error maiores, corrupti atque similique suscipit alias distinctio, modi aliquid officiis corporis numquam voluptate quisquam eum.
+                  <h1 style="color: white;">Steven Newton</h1>
+              </div>
+                <div class="row">
+                  <h3 style="color: white";>Fullstack Java Developer</h2>
+
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class=" col-md-10  divtexto  m-4">
+                  I am a recently graduated mechatronics engineer, and programming technician that has concluded that he loves programming the most, I love tackling hard problems, and never give up
                 </div>
             </div>
 <!--             aqui van mis habilidades blandas y duras
  -->            <div class="row justify-content-center ">
                 <div class="col-lg-5 divtexto m-4 " >
                     <ul style="margin-left: 1.9em;">
-                        <li>Lorem, ipsum.</li>
-                        <li>Lorem, ipsum dolor.</li>
-                        <li>Lorem ipsum dolor sit.</li>
-                        <li>Lorem, ipsum dolor.</li>
-                        <li>Lorem, ipsum dolor.</li>
+                        <li>Java.</li>
+                        <li>Git</li>
+                        <li>SQL</li>
+
                     </ul>
                 </div>
                 <div class="col-lg-5 divtexto m-4" >
                     <ul style="margin-left: 1.9em;">
-                        <li>Lorem, ipsum.</li>
-                        <li>Lorem, ipsum dolor.</li>
-                        <li>Lorem ipsum dolor sit.</li>
-                        <li>Lorem, ipsum dolor.</li>
-                        <li>Lorem, ipsum dolor.</li>
+                        <li>Javascript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>bootstrap</li>
                     </ul>
                 </div>
         </div>
+        </main>
+<!-- Cotizacion -->
+<h1 class="text-center fadein ">Quote Page</h1>
+<br>
+<!-- estilo en linea  -->
+<main class="container-xl  justify-content-center p-3 d-print-none fadein" id="quote" style="background-color: white; color:black;">
+        <form>
+            <div class="form-row  div-to-align">
+                <div class="col-md-6">
+                    <label for="inputMail">email</label>
+                    <input type="text" class="form-control" placeholder="example@example.com" id="inputMail">
+                </div>
+                <div class="col-md-6" >
+                    <label for="inputName">Name"</label>
+                    <input type="text" class="form-control" placeholder="john" id="inputName">
+                </div>
+            </div> 
+            <div class="form-row  div-to-align">
+                <div class="col-md-6">
+                    <label for="inputHours">hours worked</label>
+                    <input type="text" class="form-control" placeholder="hours worked" id="inputHours" value="0">
+                </div>
+                <div class="col-md-6" >
+                    <label for="inputRate">hourly rate"</label>
+                    <input type="text" class="form-control" placeholder="hourly rate" id="inputRate" value="0">
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-6 mt-4 pt-2">
+                    <input class="form-check-input " type="checkbox" id="checkVAT">
+                    <label class="form-check-label" for="checkVAT">VAT</label>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputExtras">Extras</label>
+                    <select  class="form-control"  id="inputExtras" multiple> 
+                        <option value="7000">Graphic Design</option>
+                        <option value="1500">Hosting</option>
+                        <option value="12000">Support</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row  div-to-align">
+                <div class="col-md-6">
+                    <label for="inputChange">Change Management %</label>
+                    <input type="text" class="form-control" placeholder="" id="inputChange" value="0">
+                </div>
+                <div class="col-md-6" >
+                    <label for="inputFixed">Fixed Costs</label>
+                    <input type="text" class="form-control" placeholder="" id="inputFixed" value="0">
+                </div>
+            </div> 
+            <div class="row ">
+                <div class="col-md-12 p-4" >
+                    <button class="btn btn-primary btn-block" id="quoteButton"> Calculate </button>
+                </div>
+            </div>
+        </form>
+    </main>
 
+    <main class="container-xl justify-content-center p-3" style="background-color: white; color:black;">
+        <form class="border p-3">
+        <div class="form-row  div-to-align ">
+            <div class="col-md-12 text-left">
+                <p id="costText"></p>
+            </div>
+           
+        </div>
+        <div class="form-row  div-to-align align-center d-print-none ">
+            <div class="col-md-12">
+                <br>
+                <button class="btn btn-primary fadein " id="printButton"> print </button>
+            </div> 
+        </div>
+    </form>
+    </main>
+    <br><br><br>
 
+    
 <!--         aqui van proyectos que hagamos para el portafolio, las imagenes son temporales 
  -->
- <div id="carouselExampleControls" class="carousel slide fadein col-md-12" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block " src="../src/test1.png" alt="First slide">
+ <main id="carousel" class="container text-center d-print-none">
+    <h1>Projects I've worked on </h1>
+  <div id="carouselExampleControls " class="carousel slide fadein col-md-12 d-print-none" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block " src="../src/test1.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block "  src="../src/test2.png" alt="Second slide">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img class="d-block "  src="../src/test2.png" alt="Second slide">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-      <br>
-      <br>
-      <br>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </main>
+  <br>
+  <br>
+  <br>
 
-      </main>
-
-      <footer class="w-100" style="background-color:white;">
-            <div class=" text-center ">
-              <ul class="list-inline">
-                      <li class="list-inline-item"> <a  href="https://github.com/Steven-Newton"><img width="25px" height="25px" src="../src/github.png" alt=""></a></li>
-                      <li class="list-inline-item"> <a  href="https://www.linkedin.com/in/steven-newton-442242249/"><img width="25px" height="25px" src="../src/linkedin.png" alt=""></a></li>
-                  </ul>
-                  <small>Copyright &copy; Steven Newton</small>
-              </div> 
-        </footer>
-    
+    <script src="../js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-    </body>
+    
+</body>
+    
+    <footer class="w-100 d-print-none" style="background-color:white;">
+      <div class=" text-center ">
+        <ul class="list-inline">
+                <li class="list-inline-item"> <a  href="https://github.com/Steven-Newton"><img width="25px" height="25px" src="../src/github.png" alt=""></a></li>
+                <li class="list-inline-item"> <a  href="https://www.linkedin.com/in/steven-newton-442242249/"><img width="25px" height="25px" src="../src/linkedin.png" alt=""></a></li>
+                <li class="list-inline-item"> <a  href="../src/CV.pdf"><h3>CV</h3></a></li>
+              </ul>
+            <small>Copyright &copy; Steven Newton</small>
+        </div> 
+  </footer>
+
 </html>
